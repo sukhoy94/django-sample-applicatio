@@ -51,5 +51,15 @@ news.delete()
 
 ```
 
+-- Admin panel --
+
+```
+python manage.py createsuperuser
+```
+
+Register application for admin: (news/admin.py)
+```
+admin.site.register(News, NewsAdmin)
+```
 
 
